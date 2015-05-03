@@ -1,0 +1,19 @@
+{
+    "articles": [
+        {
+			"tags": ["html", "css"],
+            "title": "First Post!",
+			"body": "Blah blah blah!"
+        },
+        {
+			"tags": ["html", "css", "javascript"],
+            "title": "Meh Blah Rah",
+			"body": "This is dumb."
+        },
+        {
+			"tags": ["javascript", "mongodb"],
+            "title": "Third Effin Post!",
+			"body": "Nothing really to see here meh."
+        }
+	]
+}

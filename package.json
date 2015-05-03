@@ -1,0 +1,72 @@
+{
+  "name": "davidrivers.name",
+  "version": "0.0.1",
+  "description": "Personal blog and portfolio of David Rivers, a front-end engineer in Arlington, Virginia",
+  "main": "bundle.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.4",
+    "d3": "^3.5.5",
+    "es5-shim": "^4.1.1",
+    "mongoose": "^4.0.2",
+    "react": "^0.13.2"
+  },
+  "devDependencies": {
+    "browserify": "^9.0.8",
+    "coffee-react": "^3.1.0",
+    "coffee-react-transform": "^3.1.0",
+    "coffee-reactify": "^3.0.0",
+    "coffee-script": "^1.9.2",
+    "coffeeify": "^1.0.0",
+    "gulp": "^3.8.11",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-util": "^3.0.4",
+    "insert-css": "^0.2.0",
+    "jeet": "^6.1.2",
+    "less": "^2.5.0",
+    "lessify": "^1.0.1",
+    "lodash.assign": "^3.1.0",
+    "stylify": "^1.2.0",
+    "stylus": "^0.51.1",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.1.2"
+  },
+  "browserify": {
+    "transform": [
+      "coffee-reactify",
+      "lessify",
+      "stylify"
+    ]
+  },
+  "stylify": {
+    "paths": [
+      "./app/styles/stylus/**/"
+    ]
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DavidRivers/requests-chart"
+  },
+  "keywords": [
+    "David Rivers",
+    "front-end",
+    "engineer",
+    "developer",
+    "javascript",
+    "nodejs",
+    "node",
+    "ruby"
+  ],
+  "author": "David Rivers",
+  "license": "BSD-3",
+  "bugs": {
+    "url": "https://github.com/DavidRivers/requests-chart/issues"
+  },
+  "homepage": "https://github.com/DavidRivers/requests-chart"
+}
