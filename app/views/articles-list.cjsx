@@ -1,5 +1,5 @@
 React = require "react"
-ArticleView = require "../views/article.cjsx"
+ArticleView = require "../views/article-blurb.cjsx"
 
 module.exports = React.createClass
 	render: ->

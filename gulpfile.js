@@ -1,4 +1,5 @@
 // Adapted from: https://github.com/gulpjs/gulp/blob/master/docs/recipes/fast-browserify-builds-with-watchify.md
+// Good examples: https://github.com/stevelacy/gulp-stylus
 
 'use strict';
 

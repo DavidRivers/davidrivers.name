@@ -1,12 +1,9 @@
-mongoose = require "mongoose/"
 React = require "react"
-insertCss = require "insert-css"
 d3 = require "d3"
-
-insertCss(require("../styles/main.styl"))
-
+insertCss = require "insert-css"
 LayoutView = require "../views/layouts/main.cjsx"
 
+insertCss(require("../styles/main.styl"))
 React.render <LayoutView />, document.body
 
 
@@ -33,13 +30,6 @@ React.render <LayoutView />, document.body
 
 
 
-
-
-# Mongo stuffs
-#Schema = mongoose.Schema
-#ArticleSchema = new Schema(
-#	author: String
-#	title: String
 
 
 
